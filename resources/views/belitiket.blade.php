@@ -53,30 +53,30 @@
                                 <option value="">-- Pilih Rute Keberangkatan --</option>
 
                                 <optgroup label="Pulau Sumatera">
-                                    <option value="Banda Aceh → Sabang|8 jam|BDA|SBG|Sabang|🌊">Banda Aceh → Sabang (±8 jam)
+                                    <option value="Banda Aceh → Sabang|8 jam|BDA|SBG|Sabang|🌊">Banda Aceh → Sabang 
                                     </option>
                                     <option value="Sabang → Banda Aceh|8 jam|SBG|BDA|Banda Aceh|🌊">Sabang → Banda Aceh (±8
                                         jam)</option>
 
-                                    <option value="Palembang → Muntok|8 jam|PLM|MTK|Muntok|⚓">Palembang → Muntok (±8 jam)
+                                    <option value="Palembang → Muntok|8 jam|PLM|MTK|Muntok|⚓">Palembang → Muntok 
                                     </option>
-                                    <option value="Muntok → Palembang|8 jam|MTK|PLM|Palembang|⚓">Muntok → Palembang (±8 jam)
+                                    <option value="Muntok → Palembang|8 jam|MTK|PLM|Palembang|⚓">Muntok → Palembang 
                                     </option>
 
                                     <option value="Pangkal Pinang → Belitung|8 jam|PGK|BLT|Belitung|🏝️">Pangkal Pinang →
-                                        Belitung (±8 jam)</option>
+                                        Belitung </option>
                                     <option value="Belitung → Pangkal Pinang|8 jam|BLT|PGK|Pangkal Pinang|🏝️">Belitung →
-                                        Pangkal Pinang (±8 jam)</option>
+                                        Pangkal Pinang </option>
                                 </optgroup>
 
                                 <optgroup label="Pulau Jawa">
-                                    <option value="Gresik → Bawean|8 jam|GRS|BWN|Bawean|🚢">Gresik → Bawean (±8 jam)
+                                    <option value="Gresik → Bawean|8 jam|GRS|BWN|Bawean|🚢">Gresik → Bawean 
                                     </option>
-                                    <option value="Bawean → Gresik|8 jam|BWN|GRS|Gresik|🚢">Bawean → Gresik (±8 jam)
+                                    <option value="Bawean → Gresik|8 jam|BWN|GRS|Gresik|🚢">Bawean → Gresik 
                                     </option>
 
                                     <option value="Jepara → Karimunjawa|8 jam|JPR|KRJ|Karimunjawa|🌊">Jepara → Karimunjawa
-                                        (±8 jam)</option>
+                                        </option>
                                     <option value="Karimunjawa → Jepara|8 jam|KRJ|JPR|Jepara|🌊">Karimunjawa → Jepara (±8
                                         jam)</option>
 
@@ -87,13 +87,13 @@
                                 </optgroup>
 
                                 <optgroup label="Pulau Timur">
-                                    <option value="Kupang → Rote|8 jam|KPG|ROT|Rote|⚓">Kupang → Rote (±8 jam)</option>
-                                    <option value="Rote → Kupang|8 jam|ROT|KPG|Kupang|⚓">Rote → Kupang (±8 jam)</option>
+                                    <option value="Kupang → Rote|8 jam|KPG|ROT|Rote|⚓">Kupang → Rote </option>
+                                    <option value="Rote → Kupang|8 jam|ROT|KPG|Kupang|⚓">Rote → Kupang </option>
 
                                     <option value="Banyuwangi → Denpasar|8 jam|BWI|DPS|Denpasar|🚢">Banyuwangi → Denpasar
-                                        (±8 jam)</option>
+                                        </option>
                                     <option value="Denpasar → Banyuwangi|8 jam|DPS|BWI|Banyuwangi|🚢">Denpasar → Banyuwangi
-                                        (±8 jam)</option>
+                                        </option>
                                 </optgroup>
                             </select>
                         </div>
