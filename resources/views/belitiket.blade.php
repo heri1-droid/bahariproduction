@@ -157,7 +157,7 @@
             </div>
 
             <!-- SUMMARY -->
-            <div>
+            {{-- <div>
                 <div class="os">
                     <h3>🧾 Ringkasan</h3>
                     <div class="orb">
@@ -207,7 +207,7 @@
                             style="width:100%;justify-content:center;margin-top:10px">🖨️ Cetak E-Tiket</button>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 @endsection
