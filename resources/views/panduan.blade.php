@@ -3,7 +3,7 @@
 <br><br>
 <section class="sec sec-lt">
     <div class="chip">Panduan</div>
-    <h2 class="st mb-5">Mudah dalam <em>4 Langkah</em></h2>
+    <h2 class="st mb-5">Mudah daalam <em>4 Langkah</em></h2>
     <div class="sr">
         <div class="si">
             <div class="sc">1</div>
