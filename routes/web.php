@@ -20,7 +20,7 @@ Route::middleware('auth')->group(function () {
 
 
 //ROUTE SEMENTARA
-// Route::view('/panduan', 'panduan')->name('panduan');
+Route::view('/panduan', 'panduan')->name('panduan');
 Route::view('/profil', 'profil')->name('profil');
 Route::view('/belitiket', 'belitiket')->name('belitiket');
 Route::view('/tiket', 'tiket')->name('tiket');

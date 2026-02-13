@@ -166,7 +166,7 @@
             <h2 class="st st-w" style="text-align:center;margin-bottom:10px">Jangan Sampai Kehabisan</h2>
             <p style="color:rgba(255,255,255,.8);font-size:14px;max-width:420px;margin:0 auto 24px;line-height:1.7">
                 Segera daftarkan diri dan pesan tiket mudik gratis sebelum kuota habis.</p>
-            <button class="bw" onclick="sp('reg')">🚀 Daftar & Pesan Sekarang</button>
+            <a href="{{ url('/belitiket') }}"><button class="bw">🚀 Daftar Sekarang</button></a>
         </section>
     </div>
 
