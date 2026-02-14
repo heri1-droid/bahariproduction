@@ -256,6 +256,7 @@ body {
 
 }
 
+/* ===== END MOBILE MODE ===== */
 
 
 
@@ -388,7 +389,8 @@ body {
         margin-bottom: 20px;
     }
 
-    .bw, .bg {
+    .bw,
+    .bg {
         padding: 10px 16px;
         font-size: 13px;
     }
@@ -456,7 +458,6 @@ body {
     margin-top: 20px;
     backdrop-filter: blur(10px);
     animation: fuUp .6s ease both
-
 }
 
 .ht {
@@ -567,26 +568,29 @@ body {
 
 /* SECTIONS */
 
-.sec-route > .chip,
-.sec-route > .st,
-.sec-route > .sd {
+.sec-route>.chip,
+.sec-route>.st,
+.sec-route>.sd {
     text-align: center !important;
 }
 
 
 .sec-lt {
-    text-align: center;   /* semua teks di dalam center */
- 
+    text-align: center;
+    /* semua teks di dalam center */
+
 }
 
 .sec-lt .chip {
-    display: inline-block; /* supaya chip juga bisa di-center */
+    display: inline-block;
+    /* supaya chip juga bisa di-center */
     margin-bottom: 15px;
 }
 
 
 .st.mb-5 {
-    margin-bottom: 40px; /* atau sesuai selera */
+    margin-bottom: 40px;
+    /* atau sesuai selera */
 }
 
 
@@ -599,7 +603,6 @@ body {
 
 .sec {
     padding: 42px 5%
-    
 }
 
 .sec-lt {
@@ -651,9 +654,11 @@ body {
     font-size: 14px;
     color: var(--g5);
     max-width: 500px;
-    margin: 0 auto 40px;   /* INI KUNCINYA */
+    margin: 0 auto 40px;
+    /* INI KUNCINYA */
     line-height: 1.7;
-    text-align: center;    /* optional tapi aman */
+    text-align: center;
+    /* optional tapi aman */
 }
 
 
@@ -713,25 +718,31 @@ body {
     }
 
     .region-content .rg {
-        flex-direction: column; /* stack semua rute */
+        flex-direction: column;
+        /* stack semua rute */
         gap: 10px;
     }
 
     .rc {
-        flex-direction: row; /* icon + teks sejajar */
+        flex-direction: row;
+        /* icon + teks sejajar */
         align-items: center;
         justify-content: flex-start;
         gap: 8px;
-        width: 100%; /* biar tidak melebar */
+        width: 100%;
+        /* biar tidak melebar */
     }
 
     .ri {
-        font-size: 1rem; /* kecilkan icon/emoji */
+        font-size: 1rem;
+        /* kecilkan icon/emoji */
     }
 
     .rn {
-        font-size: 0.8rem; /* kecilkan nama rute */
-        white-space: normal; /* biar wrap jika terlalu panjang */
+        font-size: 0.8rem;
+        /* kecilkan nama rute */
+        white-space: normal;
+        /* biar wrap jika terlalu panjang */
     }
 
     .rm span {

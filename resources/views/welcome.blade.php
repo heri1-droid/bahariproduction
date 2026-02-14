@@ -1,36 +1,8 @@
 @extends('landing.app')
 @section('content')
-    <!-- ===== HOME ===== -->
-    {{-- <div id="pg-home" class="pg-home">
-        <section class="hero">
-            <div class="hero-wrap">
+  
 
-                <div class="hi">
-                    <div class="hbadge">⚓ Program Mudik Gratis 2025</div>
-                    <h1 class="ht">Pulang Kampung<span>Tanpa Biaya</span></h1>
-                    <p class="hd">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis.</p>
-                    <div class="ha">
-                        <a href="{{ url('/belitiket') }}"><button class="bw">🎫 Pesan Tiket Gratis</button></a>
-                    </div>
-                    <div class="hstats">
-                        <div class="hs">
-                            <div class="hsn">12.400+</div>
-                            <div class="hsl">Kursi Gratis</div>
-                        </div>
-                        <div class="hs">
-                            <div class="hsn">8</div>
-                            <div class="hsl">Rute Aktif</div>
-                        </div>
-                        <div class="hs">
-                            <div class="hsn">Rp 0</div>
-                            <div class="hsl">Biaya Tiket</div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </section> --}}
 
 
     {{-- ===== HOME ===== --}}

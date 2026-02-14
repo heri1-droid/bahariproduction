@@ -8,9 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Lora:wght@600;700&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
@@ -65,10 +63,5 @@
 
     <div class="toast" id="toast"></div>
     <script src="{{ asset('js/app.js') }}"></script>
-
-
 </body>
-
-
-
 </html>

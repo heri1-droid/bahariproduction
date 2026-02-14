@@ -1,4 +1,4 @@
-// butoon mobile bawa
+// butooM mobile bawa
 const ships = document.querySelectorAll(".ship");
 let index = 0;
 
@@ -7,13 +7,6 @@ setInterval(() => {
     index = (index + 1) % ships.length;
     ships[index].classList.add("active");
 }, 3000);
-
-
-
-
-
-
-
 
 
 
