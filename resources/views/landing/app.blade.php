@@ -49,7 +49,7 @@
             <i class="fa-solid fa-book-open"></i>
             <span>Panduan</span>
         </a>
-        <a href="{{ route('register') }}">
+        <a href="{{ route('login') }}">
             <i class="fa-solid fa-user"></i>
             <span>Akun</span>
         </a>
