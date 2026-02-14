@@ -1,6 +1,6 @@
 @extends('landing.app')
 @section('content')
-    <link rel="stylesheet" href="{{ asset('css/tiketsementara.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/tiketsementara.css') }}"> --}}
     <div id="pg-tiket" class="pg">
         <div class="th">
             <h1>Pesan Tiket <span style="color:var(--g2)">Mudik Gratis</span></h1>
