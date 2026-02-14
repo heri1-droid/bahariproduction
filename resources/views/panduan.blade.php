@@ -2,7 +2,16 @@
 @section('content')
 <br><br>
 <section class="sec sec-lt">
-    <div class="chip">Panduan</div>
+<div class="chip" 
+     style="
+        display:inline-block;
+        padding:8px 18px;
+        font-size:14px;
+        font-weight:700;
+        border-radius:999px;
+     ">
+    Panduan
+</div>
     <h2 class="st mb-5">Mudah daalam <em>4 Langkah</em></h2>
     <div class="sr">
         <div class="si">
