@@ -26,7 +26,7 @@
                         <div class="fg2">
                             <label>Rute Keberangkatan <span class="req">*</span></label>
                             <select id="rute" class="fc2" onchange="selRoute()">
-                                <option value="">-- Pilih Rute Keberangkatan --</option>
+                                <option value="">-Pilih Rute Keberangkatan-</option>
                                 <optgroup label="Pulau Sumatera">
                                     <option value="Banda Aceh → Sabang|8 jam|BDA|SBG|Sabang|🌊">Banda Aceh → Sabang</option>
                                     <option value="Sabang → Banda Aceh|8 jam|SBG|BDA|Banda Aceh|🌊">Sabang → Banda Aceh

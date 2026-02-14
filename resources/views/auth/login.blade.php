@@ -70,7 +70,7 @@
                 <button class="bpri" onclick="doLogin()">Masuk ke Akun →</button>
                 <div class="div">atau</div>
                 {{-- <button class="bout" onclick="sp('tiket')">🎫 Lanjutkan sebagai Tamu</button> --}}
-                <div class="al">Belum punya akun? <a onclick="sp('reg')">Daftar sekarang</a></div>
+                <div class="al">Belum punya akun? <a href="  {{ route('register') }}">Daftar sekarang</a></div>
             </div>
         </div>
     </div>
