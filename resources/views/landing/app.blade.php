@@ -80,7 +80,7 @@
 
 
     <footer style="background:var(--b9);color:rgba(255,255,255,.55);text-align:center;padding:26px 5%;font-size:13px;">
-        ⚓ <strong style="color:#fff">Kapal Bahari Express</strong> – Mudik Gratis 2026 &nbsp;|&nbsp; Bekerjasama dengan
+        ⚓ <strong style="color:#fff">Kapal Express Bahari</strong> – Mudik Gratis 2026 &nbsp;|&nbsp; Bekerjasama dengan
         Kementerian Perhubungan RI &nbsp;|&nbsp; © 2026 PT. Pelayaran Sakti Inti Makmur (Express Bahari)
     </footer>
     <div class="toast" id="toast"></div>
