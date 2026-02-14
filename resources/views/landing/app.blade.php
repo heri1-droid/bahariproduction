@@ -19,7 +19,7 @@
     <nav class="nav">
         <div class="nb" onclick="sp('home')">
             <div class="nbi"><img src="{{ asset('images/baharilogo.png') }}" alt="" srcset=""></div>
-            <div class="nbt"><strong>Express Bahari</strong><small>Mudik Gratis 2025</small></div>
+            <div class="nbt"><strong>Express Bahari</strong><small>Mudik Gratis 2026</small></div>
         </div>
         <div class="nm">
             <a id="n-home" class="active" href="{{ url('/') }}">Beranda</a>
@@ -57,8 +57,8 @@
 
 
     <footer style="background:var(--b9);color:rgba(255,255,255,.55);text-align:center;padding:26px 5%;font-size:13px;">
-        ⚓ <strong style="color:#fff">Kapal Bahari Express</strong> – Mudik Gratis 2025 &nbsp;|&nbsp; Bekerjasama dengan
-        Kementerian Perhubungan RI &nbsp;|&nbsp; © 2025 PT Bahari Express Nusantara
+        ⚓ <strong style="color:#fff">Kapal Bahari Express</strong> – Mudik Gratis 2026 &nbsp;|&nbsp; Bekerjasama dengan
+        Kementerian Perhubungan RI &nbsp;|&nbsp; © 2026 PT Bahari Express Nusantara
     </footer>
 
     <div class="toast" id="toast"></div>

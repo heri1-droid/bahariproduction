@@ -12,7 +12,7 @@
 
                 {{-- TEKS KIRI --}}
                 <div class="hi">
-                    <div class="hbadge">⚓ Program Mudik Gratis 2025</div>
+                    <div class="hbadge">⚓ Program Mudik Gratis 2026</div>
                     <h1 class="ht">Pulang Kampung<span>Tanpa Biaya</span></h1>
                     <p class="hd">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
                         dolor. Aenean massa. Cum sociis natoque penatibus et magnis.</p>
