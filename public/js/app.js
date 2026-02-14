@@ -83,9 +83,18 @@ function bpx() {
         <div class="fg2"><label>Nama Lengkap <span class="req">*</span></label>
           <input type="text" id="pn${i}" class="fc2" placeholder="Sesuai KTP" value="${i === 1 ? 'Ahmad Fauzi' : i === 2 ? 'Siti Rahayu' : ''}"></div>
         <div class="fg2"><label>${ank ? 'No. Akta Lahir' : 'NIK KTP'} <span class="req">*</span></label>
-          <input type="number" id="pk${i}" class="fc2" placeholder="Nomor identitas" maxlength="${ank ? 20 : 16}" value="${i === 1 ? '1271234567890001' : i === 2 ? '1271987654321002' : ''}"></div>
+          <input type="number" id="pk${i}" class="fc2"
+           placeholder="Nomor identitas"
+           maxlength="${ank ? 20 : 16}"
+           value="${i === 1 ? '1271234567890001' : i === 2 ? '1271987654321002' : ''}">
       </div>
       <div class="fr">
+      
+      <div class="fg2"><label>Nomor HP <span class="req">*</span></label>
+        <input type="number" id="ph${i}" class="fc2"
+           placeholder="08xxxxxxxxxx"
+           maxlength="13"
+           value="${i === 1 ? '081234567890' : i === 2 ? '082345678901' : ''}">
         <div class="fg2"><label>Jenis Kelamin</label>
           <select id="pj${i}" class="fc2"><option value="L">Laki-laki</option><option value="P"${i === 2 ? ' selected' : ''}>Perempuan</option></select></div>
         

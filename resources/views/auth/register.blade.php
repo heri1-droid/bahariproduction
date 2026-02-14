@@ -65,10 +65,10 @@
                 <p class="as">Daftar untuk memesan tiket mudik gratis</p>
                 <div class="fr">
                     <div class="fg2"><label>Nama Lengkap <span class="req">*</span></label><input type="text"
-                            class="fc2" placeholder="Nama Lengkap Sesuai KTP" id="r-fn"></div>
+                            class="fc2" placeholder="Sesuai KTP" id="r-fn"></div>
                     
                 </div>
-                <div class="fg2"><label>NIK (16 digit) <span class="req">*</span></label><input type="text"
+                <div class="fg2"><label>NIK (16 digit) <span class="req">*</span></label><input type="number"
                         class="fc2" placeholder="Nomor Induk Kependudukan sesuai KTP" maxlength="16" id="r-nik">
                 </div>
 
@@ -98,7 +98,7 @@
                 </div> --}}
 
                 <div class="fr">
-                    <div class="fg2"><label>No. HP <span class="req">*</span></label><input type="text"
+                    <div class="fg2"><label>No. HP <span class="req">*</span></label><input type="number"
                             class="fc2" placeholder="08xxxxxxxxxx" id="r-hp"></div>
                     <div class="fg2"><label>Email <span class="req">*</span></label><input type="email"
                             class="fc2" placeholder="email@contoh.com" id="r-em"></div>
