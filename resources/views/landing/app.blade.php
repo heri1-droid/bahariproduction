@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <div class="bottom-nav">
+    {{-- <div class="bottom-nav">
         <a href="{{ url('/') }}" class="bn-item active">
             <i class="fa-solid fa-house"></i>
             <span>Home</span>
@@ -51,7 +51,30 @@
             <i class="fa-solid fa-user"></i>
             <span>Akun</span>
         </a>
-    </div>
+    </div> --}}
+
+    <div class="bottom-nav">
+    <a href="{{ url('/') }}" class="bn-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </a>
+    <a href="{{ url('/belitiket') }}" class="bn-item">
+        <i class="fa-solid fa-ticket"></i>
+        <span>Pesan Tiket</span>
+    </a>
+    <a href="{{ url('/profil') }}" class="bn-item">
+        <i class="fa-solid fa-layer-group"></i>
+        <span>Riwayat</span>
+    </a>
+    <a href="{{ url('/panduan') }}" class="bn-item">
+        <i class="fa-solid fa-book-open"></i>
+        <span>Panduan</span>
+    </a>
+    <a href="{{ route('login') }}" class="bn-item">
+        <i class="fa-solid fa-user"></i>
+        <span>Akun</span>
+    </a>
+</div>
 
     @yield('content')
 

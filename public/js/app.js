@@ -1,12 +1,18 @@
 // butooM mobile bawa
-const ships = document.querySelectorAll(".ship");
-let index = 0;
+const navItems = document.querySelectorAll(".bn-item");
 
-setInterval(() => {
-    ships[index].classList.remove("active");
-    index = (index + 1) % ships.length;
-    ships[index].classList.add("active");
-}, 3000);
+navItems.forEach(item => {
+    // Set active berdasarkan URL saat ini
+    if (window.location.pathname === new URL(item.href).pathname) {
+        item.classList.add("active");
+    }
+
+    // Klik juga tetap jalan
+    item.addEventListener("click", function () {
+        navItems.forEach(i => i.classList.remove("active"));
+        this.classList.add("active");
+    });
+});
 
 
 

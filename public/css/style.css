@@ -100,7 +100,7 @@ body {
 
 
 /* Tombol bottom bawah */
-
+/* 
 .bottom-nav {
     position: fixed;
     bottom: 15px;
@@ -120,11 +120,9 @@ body {
     z-index: 999;
 }
 
-/* Link */
 .bottom-nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, .7);
-    /* putih agak transparan */
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -133,12 +131,10 @@ body {
     transition: 0.3s ease;
 }
 
-/* Icon */
 .bottom-nav i {
     font-size: 18px;
 }
 
-/* Active */
 .bottom-nav a.active {
     color: #ffffff;
     transform: translateY(-3px);
@@ -150,7 +146,6 @@ body {
 
 
 
-/* ==== MOBILE ONLY ==== */
 @media (max-width: 768px) {
 
     .bottom-nav {
@@ -159,17 +154,86 @@ body {
 
     .nav {
         display: none;
-        /* sembunyikan navbar atas */
     }
 
     body {
         padding-bottom: 70px;
-        /* supaya konten tidak ketutup */
     }
 
 
+} */
+
+
+
+
+
+
+/* Tombol bottom bawah */
+.bottom-nav {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 92%;
+    height: 65px;
+    background: linear-gradient(135deg, var(--b6), var(--b8));
+    border-radius: var(--rl);
+    display: none;  /* default tersembunyi */
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--shm);
+    z-index: 999;
 }
 
+.bottom-nav .bn-item {
+    text-decoration: none;
+    color: var(--b2);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    transition: none; /* ← ganti dari 0.3s ease */
+    padding: 6px 12px;
+    border-radius: var(--r);
+}
+
+.bottom-nav .bn-item i {
+    font-size: 18px;
+}
+
+/* Aktif - background putih, teks & icon biru */
+/* Aktif - background putih, teks & icon biru */
+.bottom-nav .bn-item.active {
+    background-color: var(--w);
+    color: var(--b7);
+    padding: 4px 8px; /* ← tambahkan ini */
+}
+
+.bottom-nav .bn-item.active i {
+    transform: scale(1.15);
+    color: var(--b7);
+}
+
+/* Hover non-active */
+.bottom-nav .bn-item:not(.active):hover {
+    color: var(--w);
+}
+
+/* Tampil hanya di mobile */
+@media (max-width: 768px) {
+    .bottom-nav {
+        display: flex;  /* ← ini yang bikin muncul */
+    }
+
+    .nav {
+        display: none;
+    }
+
+    body {
+        padding-bottom: 90px;
+    }
+}
 
 
 
