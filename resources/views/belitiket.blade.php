@@ -115,7 +115,7 @@
                     <!-- SUCCESS -->
                     <div class="bst" id="stok">
                         <div class="sv">
-                            <div class="sch">✓</div>
+                            <div class="sch" style="color: #ffffff;">✓</div>
                             <h2 style="color: #0a2463;">Tiket Berhasil Dipesan!</h2>
                             <p>E-tiket Anda telah berhasil dibuat. Tunjukkan tiket kepada petugas saat boarding di
                                 pelabuhan.</p>
@@ -173,48 +173,3 @@
 
     </div>
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
