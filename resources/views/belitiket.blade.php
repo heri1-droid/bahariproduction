@@ -74,7 +74,7 @@
                                     </option>
                                     <option value="Bawean → Gresik|8 jam|BWN|GRS|Gresik|🚢">Bawean → Gresik 
                                     </option>
-
+                                    
                                     <option value="Jepara → Karimunjawa|8 jam|JPR|KRJ|Karimunjawa|🌊">Jepara → Karimunjawa
                                         </option>
                                     <option value="Karimunjawa → Jepara|8 jam|KRJ|JPR|Jepara|🌊">Karimunjawa → Jepara (±8
@@ -156,58 +156,6 @@
                 </div>
             </div>
 
-            <!-- SUMMARY -->
-            {{-- <div>
-                <div class="os">
-                    <h3>🧾 Ringkasan</h3>
-                    <div class="orb">
-                        <div class="orn" id="srt">Pilih rute...</div>
-                        <div class="ord" id="stg">Tanggal belum dipilih</div>
-                    </div>
-                    <div class="sr2"><span class="lb">Kelas</span><span class="vl"
-                            id="skl">Ekonomi</span></div>
-                    <div class="sr2"><span class="lb">Dewasa</span><span class="vl" id="ssd">1
-                            penumpang</span></div>
-                    <div class="sr2"><span class="lb">Anak</span><span class="vl" id="ssa">0
-                            penumpang</span></div>
-                    <div class="tr"><span class="tl">Total Biaya</span><span><span class="ta">Rp 0</span>
-                            <span class="badge-g">GRATIS</span></span></div>
-
-                    <div id="etw" style="display:none;margin-top:18px">
-                        <div class="et">
-                            <div class="et-top"><span>⚓ Bahari Express</span><span>E-TIKET MUDIK</span></div>
-                            <div class="et-body">
-                                <div class="et-r">
-                                    <div>
-                                        <div class="et-c" id="tfr">JKT</div>
-                                        <div class="et-cs">Jakarta</div>
-                                    </div>
-                                    <div class="et-s">⛴️</div>
-                                    <div style="text-align:right">
-                                        <div class="et-c" id="tto">SMG</div>
-                                        <div class="et-cs" id="ttof">Semarang</div>
-                                    </div>
-                                </div>
-                                <div class="et-sep"></div>
-                                <div class="et-det">
-                                    <div class="et-d"><label>Tanggal</label><span id="ttg">—</span></div>
-                                    <div class="et-d"><label>Kelas</label><span id="tkl">Ekonomi</span></div>
-                                    <div class="et-d"><label>Penumpang</label><span id="tpx">1 Orang</span>
-                                    </div>
-                                    <div class="et-d"><label>Status</label><span style="color:#16a34a;font-weight:700">✓
-                                            Confirmed</span></div>
-                                </div>
-                            </div>
-                            <div class="et-bc">
-                                <div class="bv" id="bc"></div>
-                                <div class="ec" id="tcode">BHE-2025-000000</div>
-                            </div>
-                        </div>
-                        <button onclick="window.print()" class="bout"
-                            style="width:100%;justify-content:center;margin-top:10px">🖨️ Cetak E-Tiket</button>
-                    </div>
-                </div>
-            </div> --}}
-        </div>
+            
     </div>
 @endsection

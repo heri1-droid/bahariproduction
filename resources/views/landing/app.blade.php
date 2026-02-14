@@ -29,8 +29,6 @@
             <a href="{{ url('/belitiket') }}">Beli Tiket</a>
             <a class="nml d-none d-md-inline" href="{{ route('login') }}">Masuk</a>
             <a class="nmd  d-none d-md-inline" href="{{ route('register') }}">Daftar</a>
-            {{-- <a href="{{ route('login') }}">Masuk</a>
-            <a href="{{ route('register') }}">Daftar</a> --}}
         </div>
     </nav>
 
@@ -42,6 +40,10 @@
         <a href="{{ url('/belitiket') }}">
             <i class="fa-solid fa-ticket"></i>
             <span>Pesan Tiket</span>
+        </a>
+        <a href="{{ url('/profil') }}" class="bn-item">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Riwayat</span>
         </a>
         <a href="{{ url('/panduan') }}">
             <i class="fa-solid fa-book-open"></i>

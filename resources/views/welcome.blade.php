@@ -42,7 +42,7 @@
 
 
 
-        <section class="sec sec-route">
+        {{-- <section class="sec sec-route">
             <h2 class="st">Pilih <em>Tujuan</em> Mudikmu</h2>
             <p class="sd">Tersedia berbagai rute antar pulau untuk memudahkan perjalanan pulang kampung Anda.</p>
 
@@ -128,7 +128,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
 
