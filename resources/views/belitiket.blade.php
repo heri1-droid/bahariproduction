@@ -1,6 +1,6 @@
 @extends('landing.app')
 @section('content')
-    {{-- <link rel="stylesheet" href="{{ asset('css/tiketsementara.css') }}"> --}}
+    <link rel="stylesheet" href="{{ asset('css/tiketsementara.css') }}">
     <div id="pg-tiket" class="pg">
         <div class="th">
             <h1>Pesan Tiket <span style="color:var(--g2)">Mudik Gratis</span></h1>
@@ -166,6 +166,53 @@
             </div>
 
         </div><!-- /bl -->
+
+
+        <style>
+            /* ── Tambahkan di bagian bawah tiket-mobile.css ──
+       Atau di bawah @media (max-width: 768px) yang sudah ada
+       ─────────────────────────────────────────────────── */
+
+            @media (max-width: 768px) {
+
+                /* Wrapper utama */
+                #pg-tiket {
+                    padding-top: 68px;
+                    /* tinggi navbar */
+                }
+
+                /* ── Header biru ── */
+                .th {
+                    padding: 18px 18px 22px;
+                }
+
+                .th h1 {
+                    font-size: 20px;
+                    line-height: 1.2;
+                    margin-bottom: 5px;
+                }
+
+                .th p {
+                    font-size: 12px;
+                    line-height: 1.5;
+                }
+            }
+
+            @media (max-width: 380px) {
+
+                .th {
+                    padding: 14px 16px 18px;
+                }
+
+                .th h1 {
+                    font-size: 17px;
+                }
+
+                .th p {
+                    font-size: 11px;
+                }
+            }
+        </style>
 
         <div id="toast" class="toast"></div>
 

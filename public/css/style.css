@@ -1481,6 +1481,257 @@ body {
 }
 
 /* TIKET */
+
+/* ================================================
+   MOBILE ONLY — max 768px
+   Paste di bawah css utama style.css
+   ================================================ */
+
+@media (max-width: 768px) {
+
+    /* ── Layout utama ── */
+    .bl {
+        grid-template-columns: 1fr;
+        padding: 14px;
+        gap: 14px;
+    }
+
+    .sidebar {
+        order: 2;
+    }
+
+    /* ── Header biru ── */
+    .th {
+        padding: 24px 18px 28px;
+    }
+
+    .th h1 {
+        font-size: 20px;
+    }
+
+    /* ── Step tabs ── */
+    .bsb {
+        margin-bottom: 12px;
+        border-radius: 10px;
+    }
+
+    .bs2 {
+        padding: 9px 6px;
+        font-size: 11px;
+    }
+
+    .bsn {
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+        margin-right: 3px;
+    }
+
+    /* ── Card form ── */
+    .bcard {
+        padding: 18px 14px;
+        border-radius: 14px;
+    }
+
+    .bcard h2 {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+
+    /* ── Form row → 1 kolom ── */
+    .fr {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .fg2 {
+        margin-bottom: 12px;
+    }
+
+    .fg2 label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .fc2 {
+        padding: 10px 11px;
+        font-size: 13px;
+        border-radius: 9px;
+    }
+
+    /* ── Counter penumpang ── */
+    .cr {
+        padding: 9px 12px;
+        border-radius: 9px;
+    }
+
+    .cl {
+        font-size: 13px;
+    }
+
+    .cb {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+
+    .cv {
+        font-size: 14px;
+        min-width: 20px;
+    }
+
+    /* ── Tombol navigasi ── */
+    .nb2 {
+        gap: 8px;
+        margin-top: 18px;
+    }
+
+    .bbk {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    .bln,
+    .bps {
+        padding: 11px 14px;
+        font-size: 13px;
+    }
+
+    /* ── E-Tiket ── */
+    #etw {
+        margin: 16px 0 20px;
+        border-radius: 14px;
+    }
+
+    .etw-title {
+        font-size: 13px;
+        padding: 11px 14px;
+    }
+
+    .route-disp {
+        padding: 14px 12px;
+        gap: 8px;
+    }
+
+    .port-code {
+        font-size: 24px;
+    }
+
+    .port-name {
+        font-size: 10px;
+    }
+
+    .arr-icon {
+        font-size: 20px;
+    }
+
+    .arr-line {
+        width: 40px;
+    }
+
+    .et-row {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    .et-lbl {
+        font-size: 12px;
+    }
+
+    .et-val {
+        font-size: 13px;
+    }
+
+    .bc-wrap {
+        height: 40px;
+        padding: 0 14px;
+    }
+
+    .code-disp {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 7px 14px 12px;
+    }
+
+    /* ── Halaman sukses ── */
+    .sv {
+        padding: 24px 10px;
+    }
+
+    .sch {
+        width: 68px;
+        height: 68px;
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    .sv h2 {
+        font-size: 19px;
+        margin-bottom: 8px;
+    }
+
+    .sv p {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+
+    .bpri {
+        padding: 11px 20px;
+        font-size: 13px;
+    }
+
+    /* ── Info box sidebar ── */
+    .info-box {
+        font-size: 13px;
+        padding: 13px 14px;
+        border-radius: 11px;
+    }
+
+    /* ── Toast di atas bottom nav ── */
+    .toast {
+        bottom: 74px;
+        right: 14px;
+        left: 14px;
+        font-size: 13px;
+        padding: 11px 14px;
+        border-radius: 10px;
+    }
+}
+
+/* ── HP sangat kecil ≤ 360px ── */
+@media (max-width: 360px) {
+
+    .bs2 {
+        font-size: 10px;
+        padding: 8px 4px;
+    }
+
+    .bsn {
+        display: none;
+    }
+
+    .port-code {
+        font-size: 20px;
+    }
+
+    .th h1 {
+        font-size: 17px;
+    }
+
+    .bcard {
+        padding: 14px 10px;
+    }
+
+    .bln,
+    .bps,
+    .bbk {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}
+
+
 .th {
     background: linear-gradient(135deg, var(--b7), var(--b5));
     padding: 42px 5%;
