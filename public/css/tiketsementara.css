@@ -110,7 +110,7 @@
     height: 72px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--ok), #059669);
-    color: #fff;
+    /* color: #0a2463; */
     font-size: 32px;
     display: flex;
     align-items: center;

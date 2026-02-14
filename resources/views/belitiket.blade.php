@@ -118,7 +118,7 @@
                     <div class="bst" id="stok">
                         <div class="sv">
                             <div class="sch">✓</div>
-                            <h2>Tiket Berhasil Dipesan!</h2>
+                            <h2 style="color: #0a2463;">Tiket Berhasil Dipesan!</h2>
                             <p>E-tiket Anda telah berhasil dibuat. Tunjukkan tiket kepada petugas saat boarding di
                                 pelabuhan.</p>
 
@@ -159,7 +159,7 @@
 
             <!-- SIDEBAR -->
             <div class="sidebar">
-               
+
                 <div class="info-box">
                     <strong>ℹ️ Informasi Penting</strong>
                     Tiket ini merupakan program mudik gratis dari pemerintah. Hadir 30 menit sebelum keberangkatan. Bawa
