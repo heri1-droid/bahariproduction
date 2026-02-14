@@ -27,7 +27,7 @@
                             <label>Rute Keberangkatan <span class="req">*</span></label>
                             <select id="rute" class="fc2" onchange="selRoute()">
                                 <option value="">-Pilih Rute Keberangkatan-</option>
-                                <optgroup label="▪️Pulau Sumatera">
+                                <optgroup label="⚪ Pulau Sumatera">
                                     <option value="Banda Aceh → Sabang|8 jam|BDA|SBG|Sabang|🌊">Banda Aceh → Sabang</option>
                                     <option value="Sabang → Banda Aceh|8 jam|SBG|BDA|Banda Aceh|🌊">Sabang → Banda Aceh
                                     </option>
@@ -38,7 +38,7 @@
                                     <option value="Belitung → Pangkal Pinang|8 jam|BLT|PGK|Pangkal Pinang|🏝️">Belitung →
                                         Pangkal Pinang</option>
                                 </optgroup>
-                                <optgroup label="▪️Pulau Jawa">
+                                <optgroup label="⚪ Pulau Jawa">
                                     <option value="Gresik → Bawean|8 jam|GRS|BWN|Bawean|🚢">Gresik → Bawean</option>
                                     <option value="Bawean → Gresik|8 jam|BWN|GRS|Gresik|🚢">Bawean → Gresik</option>
                                     <option value="Jepara → Karimunjawa|8 jam|JPR|KRJ|Karimunjawa|🌊">Jepara → Karimunjawa
@@ -50,7 +50,7 @@
                                     <option value="Kangean → Kalianget|8 jam|KGN|KLG|Kalianget|🏝️">Kangean → Kalianget
                                     </option>
                                 </optgroup>
-                                <optgroup label="▪️Pulau Timur">
+                                <optgroup label="⚪ Pulau Timur">
                                     <option value="Kupang → Rote|8 jam|KPG|ROT|Rote|⚓">Kupang → Rote</option>
                                     <option value="Rote → Kupang|8 jam|ROT|KPG|Kupang|⚓">Rote → Kupang</option>
                                     <option value="Banyuwangi → Denpasar|8 jam|BWI|DPS|Denpasar|🚢">Banyuwangi → Denpasar
