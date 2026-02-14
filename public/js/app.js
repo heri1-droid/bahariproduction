@@ -89,8 +89,7 @@ function bpx() {
       <div class="fr">
         <div class="fg2"><label>Jenis Kelamin</label>
           <select id="pj${i}" class="fc2"><option value="L">Laki-laki</option><option value="P"${i === 2 ? ' selected' : ''}>Perempuan</option></select></div>
-        <div class="fg2"><label>Tanggal Lahir</label>
-          <input type="date" id="pt${i}" class="fc2" value="${i === 1 ? '1990-05-15' : i === 2 ? '1993-11-02' : ''}"></div>
+        
       </div>
       <div class="fg2">
         <label>📎 ${ank ? 'Akta Lahir' : 'Foto KTP'} <span class="req">*</span></label>

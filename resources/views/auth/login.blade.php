@@ -56,7 +56,7 @@
             <div class="ac">
                 <div class="aico">🔑</div>
                 <h2 class="at">Selamat Datang</h2>
-                <p class="as">Masuk ke akun Bahari Express Anda</p>
+                <p class="as">Masuk ke akun Express Bahari Anda</p>
                 <div class="fg2"><label>Email <span class="req">*</span></label><input type="email"
                         class="fc2" placeholder="email@contoh.com" id="lin-email"></div>
                 <div class="fg2"><label>Kata Sandi <span class="req">*</span></label><input type="password"
@@ -69,7 +69,7 @@
                 </div>
                 <button class="bpri" onclick="doLogin()">Masuk ke Akun →</button>
                 <div class="div">atau</div>
-                <button class="bout" onclick="sp('tiket')">🎫 Lanjutkan sebagai Tamu</button>
+                {{-- <button class="bout" onclick="sp('tiket')">🎫 Lanjutkan sebagai Tamu</button> --}}
                 <div class="al">Belum punya akun? <a onclick="sp('reg')">Daftar sekarang</a></div>
             </div>
         </div>

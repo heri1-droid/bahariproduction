@@ -73,8 +73,8 @@
                         class="fc2" placeholder="Nomor Induk Kependudukan sesuai KTP" maxlength="16" id="r-nik">
                 </div>
 
-                <!-- KTP UPLOAD -->
-                <div class="fg2">
+                <!-- DAK JADI KTP UPLOAD -->
+                {{-- <div class="fg2">
                     <label>📎 Foto KTP <span class="req">*</span></label>
                     <div class="ktp-info">
                         <span style="font-size:18px;flex-shrink:0">ℹ️</span>
@@ -96,7 +96,7 @@
                             <div class="ufn" id="uf-reg"></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="fr">
                     <div class="fg2"><label>No. HP <span class="req">*</span></label><input type="text"

@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{ asset('css/tiketsementara.css') }}">
     <div id="pg-tiket" class="pg">
         <div class="th">
-            <h1>Pesan Tiket <span style="color:var(--b2)">Mudik Gratis</span></h1>
+            <h1>Pesan Tiket <span style="color:var(--g2)">Mudik Gratis</span></h1>
             <p style="color:rgba(255,255,255,.8);font-size:14px">Lengkapi formulir berikut untuk mendapatkan e-tiket
                 perjalanan Anda</p>
         </div>
@@ -71,8 +71,8 @@
                             <div class="fg2">
                                 <label>Kelas Tiket</label>
                                 <select id="kls" class="fc2" onchange="upSum()">
-                                    <option>Ekonomi</option>
-                                    <option>VIP</option>
+                                    <option>Eksekutif</option>
+                                    {{-- <option>VIP</option> --}}
                                 </select>
                             </div>
                         </div>
