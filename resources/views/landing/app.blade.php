@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="icon" href="{{ asset('images/baharilogo.png') }}" type="image/png">
 </head>
 
 <body>
@@ -30,12 +30,14 @@
         </div>
     </nav>
 
-    {{-- <div class="bottom-nav">
-        <a href="{{ url('/') }}" class="bn-item active">
+
+
+    <div class="bottom-nav">
+        <a href="{{ url('/') }}" class="bn-item">
             <i class="fa-solid fa-house"></i>
             <span>Home</span>
         </a>
-        <a href="{{ url('/belitiket') }}">
+        <a href="{{ url('/belitiket') }}" class="bn-item">
             <i class="fa-solid fa-ticket"></i>
             <span>Pesan Tiket</span>
         </a>
@@ -43,38 +45,15 @@
             <i class="fa-solid fa-layer-group"></i>
             <span>Riwayat</span>
         </a>
-        <a href="{{ url('/panduan') }}">
+        <a href="{{ url('/panduan') }}" class="bn-item">
             <i class="fa-solid fa-book-open"></i>
             <span>Panduan</span>
         </a>
-        <a href="{{ route('login') }}">
+        <a href="{{ route('login') }}" class="bn-item">
             <i class="fa-solid fa-user"></i>
             <span>Akun</span>
         </a>
-    </div> --}}
-
-    <div class="bottom-nav">
-    <a href="{{ url('/') }}" class="bn-item">
-        <i class="fa-solid fa-house"></i>
-        <span>Home</span>
-    </a>
-    <a href="{{ url('/belitiket') }}" class="bn-item">
-        <i class="fa-solid fa-ticket"></i>
-        <span>Pesan Tiket</span>
-    </a>
-    <a href="{{ url('/profil') }}" class="bn-item">
-        <i class="fa-solid fa-layer-group"></i>
-        <span>Riwayat</span>
-    </a>
-    <a href="{{ url('/panduan') }}" class="bn-item">
-        <i class="fa-solid fa-book-open"></i>
-        <span>Panduan</span>
-    </a>
-    <a href="{{ route('login') }}" class="bn-item">
-        <i class="fa-solid fa-user"></i>
-        <span>Akun</span>
-    </a>
-</div>
+    </div>
 
     @yield('content')
 
@@ -86,4 +65,5 @@
     <div class="toast" id="toast"></div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
+
 </html>
