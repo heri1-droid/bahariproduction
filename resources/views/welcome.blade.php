@@ -621,7 +621,7 @@
 
 
 
-    <section class="sec sec-lt">
+ {{--   <section class="sec sec-lt">
         <div class="chip">Panduan</div>
         <h2 class="st mb-5">Mudah dalam <em>4 Langkah</em></h2>
         <div class="sr ">
@@ -655,5 +655,5 @@
             Segera daftarkan diri dan pesan tiket mudik gratis sebelum kuota habis.</p>
         <a href="{{ url('/belitiket') }}"><button class="bw">🚀 Daftar Sekarang</button></a>
     </section>
-    </div>
+    </div> --}}
 @endsection
