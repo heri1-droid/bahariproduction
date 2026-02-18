@@ -96,7 +96,7 @@
                             menyetujui <a style="color:var(--b6);font-weight:700;margin:0 3px">Syarat & Ketentuan</a> serta
                             <a style="color:var(--b6);font-weight:700;margin-left:3px">Kebijakan Privasi</a> program
                             ini.</label></div>
-                    <button class="bpri" onclick="doReg()">Daftar Sekarang →</button>
+                    <button class="bpri" type="submit">Daftar Sekarang →</button>
                     <div class="al">Sudah punya akun? <a href="{{ route('login') }}">Masuk di sini</a></div>
                 </form>
             </div>
