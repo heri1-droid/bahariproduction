@@ -103,16 +103,16 @@
 
         /* ── Gradient overlay: biru tua pekat di kiri → transparan di kanan ── */
         /* .hbs-overlay {
-                position: absolute;
-                inset: 0;
-                background: linear-gradient(100deg,
-                        rgba(10, 30, 90, 0.92) 0%,
-                        rgba(20, 55, 140, 0.82) 30%,
-                        rgba(30, 79, 168, 0.55) 55%,
-                        rgba(37, 99, 235, 0.15) 75%,
-                        rgba(37, 99, 235, 0.0) 100%);
-                z-index: 1;
-            } */
+                    position: absolute;
+                    inset: 0;
+                    background: linear-gradient(100deg,
+                            rgba(10, 30, 90, 0.92) 0%,
+                            rgba(20, 55, 140, 0.82) 30%,
+                            rgba(30, 79, 168, 0.55) 55%,
+                            rgba(37, 99, 235, 0.15) 75%,
+                            rgba(37, 99, 235, 0.0) 100%);
+                    z-index: 1;
+                } */
 
         .hbs-overlay {
             position: absolute;
@@ -293,40 +293,7 @@
     </script>
 
 
-    <section class="sec sec-lt">
-        <div class="chip">Panduan</div>
-        <h2 class="st mb-5">Mudah dalam <em>4 Langkah</em></h2>
-        <div class="sr ">
-            <div class="si">
-                <div class="sc">1</div>
-                <div class="stit">Daftar Akun</div>
-                <div class="sdc">Buat akun & upload foto KTP Anda</div>
-            </div>
-            <div class="si">
-                <div class="sc">2</div>
-                <div class="stit">Pilih Rute</div>
-                <div class="sdc">Pilih rute & tanggal keberangkatan</div>
-            </div>
-            <div class="si">
-                <div class="sc">3</div>
-                <div class="stit">Isi Data Penumpang</div>
-                <div class="sdc">Lengkapi identitas & upload KTP tiap penumpang</div>
-            </div>
-            <div class="si">
-                <div class="sc">4</div>
-                <div class="stit">Cetak E-Tiket</div>
-                <div class="sdc">Tunjukkan e-tiket saat boarding</div>
-            </div>
-        </div>
-    </section>
 
-    <section class="sec sec-bl" style="text-align:center;padding:56px 5%">
-        <div class="chip chip-w">Kuota Terbatas!</div>
-        <h2 class="st st-w" style="text-align:center;margin-bottom:10px">Jangan Sampai Kehabisan</h2>
-        <p style="color:rgba(255,255,255,.8);font-size:14px;max-width:420px;margin:0 auto 24px;line-height:1.7">
-            Segera daftarkan diri dan pesan tiket mudik gratis sebelum kuota habis.</p>
-        <a href="{{ url('/belitiket') }}"><button class="bw">🚀 Daftar Sekarang</button></a>
-    </section>
     </div>
 
 
@@ -621,7 +588,7 @@
 
 
 
- {{--   <section class="sec sec-lt">
+      <section class="sec sec-lt">
         <div class="chip">Panduan</div>
         <h2 class="st mb-5">Mudah dalam <em>4 Langkah</em></h2>
         <div class="sr ">
@@ -655,5 +622,5 @@
             Segera daftarkan diri dan pesan tiket mudik gratis sebelum kuota habis.</p>
         <a href="{{ url('/belitiket') }}"><button class="bw">🚀 Daftar Sekarang</button></a>
     </section>
-    </div> --}}
+    </div>
 @endsection
