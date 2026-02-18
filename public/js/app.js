@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
     upSum();
 });
 
+
+
+
+
+
+
 // ── STATE ──
 const S = { r: '', dur: '', fr: '', to: '', tof: '', d: 1, a: 0 };
 const ktp = {};
