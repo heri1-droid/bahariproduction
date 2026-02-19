@@ -76,7 +76,7 @@ body {
     height: 65px;
     background: linear-gradient(135deg, var(--b6), var(--b8));
     border-radius: var(--rl);
-    display: none;  /* default tersembunyi */
+    display: none;
     justify-content: space-around;
     align-items: center;
     box-shadow: var(--shm);
@@ -91,7 +91,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    transition: none; /* ← ganti dari 0.3s ease */
+    transition: none;
     padding: 6px 12px;
     border-radius: var(--r);
 }
@@ -99,13 +99,15 @@ body {
 .bottom-nav .bn-item i {
     font-size: 18px;
 }
+/* END Tombol bottom bawah */
+
 
 /* Aktif - background putih, teks & icon biru */
 /* Aktif - background putih, teks & icon biru */
 .bottom-nav .bn-item.active {
     background-color: var(--w);
     color: var(--b7);
-    padding: 4px 8px; /* ← tambahkan ini */
+    padding: 4px 8px;
 }
 
 .bottom-nav .bn-item.active i {
@@ -121,7 +123,7 @@ body {
 /* Tampil hanya di mobile */
 @media (max-width: 768px) {
     .bottom-nav {
-        display: flex;  /* ← ini yang bikin muncul */
+        display: flex;
     }
 
     .nav {
@@ -163,17 +165,12 @@ body {
 
 .nbi {
     width: 100px;
-    /* persegi panjang */
     height: 55px;
     border-radius: 12px;
     background: linear-gradient(135deg, var(--b6), var(--b4));
-
     display: flex;
     align-items: center;
-    /* vertical center */
     justify-content: center;
-    /* horizontal center */
-
     box-shadow: 0 4px 12px rgba(37, 99, 235, .3);
 }
 
@@ -291,10 +288,11 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 6px 20px rgba(37, 99, 235, .4) !important
 }
+/* END NAV */
+
 
 /* PAGES */
 .pg {
-    /* display: none; */
     padding-top: 68px;
     min-height: 100vh
 }
@@ -307,7 +305,6 @@ body {
 .hero {
     background: linear-gradient(160deg, var(--b8) 0%, var(--b6) 60%, var(--b4) 100%);
     padding: 110px 8% 160px;
-    /* lebih panjang ke bawah */
     position: relative;
     overflow: hidden
 }
@@ -319,7 +316,6 @@ body {
     gap: 40px;
     max-width: 1200px;
     margin: auto;
-    /* supaya tidak mepet kiri */
 }
 
 .hero-img {
@@ -376,8 +372,6 @@ body {
     }
 
 }
-
-
 
 .hero::before {
     content: '';
@@ -527,9 +521,11 @@ body {
     font-weight: 600;
     letter-spacing: .5px
 }
+/* END HERO */
+
+
 
 /* SECTIONS */
-
 .sec-route>.chip,
 .sec-route>.st,
 .sec-route>.sd {
@@ -539,23 +535,17 @@ body {
 
 .sec-lt {
     text-align: center;
-    /* semua teks di dalam center */
-
 }
 
 .sec-lt .chip {
     display: inline-block;
-    /* supaya chip juga bisa di-center */
     margin-bottom: 15px;
 }
 
 
 .st.mb-5 {
     margin-bottom: 40px;
-    /* atau sesuai selera */
 }
-
-
 
 .sec.sec-route {
     max-width: 1200px;
@@ -584,7 +574,7 @@ body {
     text-transform: uppercase;
     color: var(--b6);
     background: var(--b1);
-    padding: 10px 22px;   /* kotaknya lebih besar */
+    padding: 10px 22px;
     border-radius: 100px;
     margin-bottom: 10px
 }
@@ -617,11 +607,10 @@ body {
     color: var(--g5);
     max-width: 500px;
     margin: 0 auto 40px;
-    /* INI KUNCINYA */
     line-height: 1.7;
     text-align: center;
-    /* optional tapi aman */
 }
+/* END SECTIONS */
 
 
 /* ROUTES */
@@ -630,40 +619,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
-
-/* @media (max-width: 768px) {
-
-    .rc {
-        padding: 10px;
-        border-radius: 12px;
-    }
-
-    .ri {
-        font-size: 16px;
-        margin-bottom: 6px;
-    }
-
-    .rn {
-        font-size: 12px;
-        line-height: 1.2;
-        margin-bottom: 4px;
-    }
-
-    .rm {
-        font-size: 10px;
-        line-height: 1.2;
-        gap: 6px;
-    }
-
-    .badge {
-        font-size: 9px;
-        padding: 3px 6px;
-    }
-
-} */
-
-
 
 @media screen and (max-width: 768px) {
     .sec-route {
@@ -681,30 +636,24 @@ body {
 
     .region-content .rg {
         flex-direction: column;
-        /* stack semua rute */
         gap: 10px;
     }
 
     .rc {
         flex-direction: row;
-        /* icon + teks sejajar */
         align-items: center;
         justify-content: flex-start;
         gap: 8px;
         width: 100%;
-        /* biar tidak melebar */
     }
 
     .ri {
         font-size: 1rem;
-        /* kecilkan icon/emoji */
     }
 
     .rn {
         font-size: 0.8rem;
-        /* kecilkan nama rute */
         white-space: normal;
-        /* biar wrap jika terlalu panjang */
     }
 
     .rm span {
@@ -718,16 +667,10 @@ body {
     }
 }
 
-
-
-
-
 .rc {
     background: #fff;
     border: 1.5px solid var(--g2);
     padding-bottom: 32px;
-    /* tambahkan ini */
-
     border-radius: var(--rl);
     padding: 22px;
     cursor: pointer;
@@ -818,7 +761,6 @@ body {
     display: inline-block
 }
 
-
 .region {
     margin-bottom: 25px;
 }
@@ -831,7 +773,6 @@ body {
     position: relative;
     padding-bottom: 6px;
     padding-top: 20px;
-
 }
 
 .region-title::after {
@@ -840,7 +781,7 @@ body {
     transition: .3s;
 }
 
-/* underline jajar genjang */
+
 .region-title::before {
     content: "";
     position: absolute;
@@ -854,12 +795,8 @@ body {
 }
 
 
-
-
-/* saat aktif */
 .region.active .region-title::before {
     width: 120%;
-    /* sedikit lebih panjang dari teks */
 }
 
 
@@ -868,8 +805,6 @@ body {
     overflow: hidden;
     transition: max-height .4s ease;
     margin-top: 18px;
-    /* tambahkan ini */
-
 }
 
 .region.active .region-content {
@@ -924,25 +859,7 @@ body {
 .route-group.active .route-head i {
     transform: rotate(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* END ROUTES */
 
 
 
@@ -1108,6 +1025,8 @@ body {
     font-size: 12px;
     color: var(--g5)
 }
+
+/* END PROFIL */
 
 /* AUTH */
 .aw {
@@ -1287,6 +1206,9 @@ body {
     text-decoration: none
 }
 
+/*END AUTH */
+
+
 /* KTP UPLOAD */
 .ktp-info {
     background: var(--b0);
@@ -1378,16 +1300,11 @@ body {
     margin-top: 5px
 }
 
+/* END KTP UPLOAD */
+
+
 /* TIKET */
-
-/* ================================================
-   MOBILE ONLY — max 768px
-   Paste di bawah css utama style.css
-   ================================================ */
-
 @media (max-width: 768px) {
-
-    /* ── Layout utama ── */
     .bl {
         grid-template-columns: 1fr;
         padding: 14px;
@@ -1398,7 +1315,6 @@ body {
         order: 2;
     }
 
-    /* ── Header biru ── */
     .th {
         padding: 24px 18px 28px;
     }
@@ -1407,7 +1323,6 @@ body {
         font-size: 20px;
     }
 
-    /* ── Step tabs ── */
     .bsb {
         margin-bottom: 12px;
         border-radius: 10px;
@@ -1425,7 +1340,6 @@ body {
         margin-right: 3px;
     }
 
-    /* ── Card form ── */
     .bcard {
         padding: 18px 14px;
         border-radius: 14px;
@@ -1435,6 +1349,9 @@ body {
         font-size: 15px;
         margin-bottom: 14px;
     }
+
+    /*END TIKET */
+
 
     /* ── Form row → 1 kolom ── */
     .fr {
@@ -1579,12 +1496,17 @@ body {
         font-size: 13px;
     }
 
+    /* ── END Halaman sukses ── */
+
     /* ── Info box sidebar ── */
     .info-box {
         font-size: 13px;
         padding: 13px 14px;
         border-radius: 11px;
     }
+
+    /* ── END Info box sidebar ── */
+
 
     /* ── Toast di atas bottom nav ── */
     .toast {
@@ -1996,6 +1918,9 @@ body {
     color: var(--b6)
 }
 
+/* END SUMMARY */
+
+
 /* E-TICKET */
 .et {
     background: #fff;
@@ -2108,6 +2033,8 @@ body {
     font-weight: 600
 }
 
+/* END E-TICKET */
+
 /* SUCCESS */
 .sv {
     text-align: center;
@@ -2142,6 +2069,8 @@ body {
     margin: 0 auto 24px;
     line-height: 1.7
 }
+
+/* END SUCCESS */
 
 /* TOAST */
 .toast {
@@ -2243,3 +2172,4 @@ body {
         display: none
     }
 }
+/* END TOAST */

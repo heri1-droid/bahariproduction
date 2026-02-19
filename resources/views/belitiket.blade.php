@@ -10,16 +10,13 @@
 
         <div class="bl">
             <div>
-
                 <!-- STEP TABS -->
                 <div class="bsb">
                     <div class="bs2 act" id="ind1" onclick="gs(1)"><span class="bsn">1</span> Pilih Rute</div>
                     <div class="bs2" id="ind2" onclick="gs(2)"><span class="bsn">2</span> Data Penumpang</div>
                     <div class="bs2" id="ind3" onclick="gs(3)"><span class="bsn">3</span> Konfirmasi</div>
                 </div>
-
                 <div class="bcard">
-
                     <!-- STEP 1 -->
                     <div class="bst act" id="st1">
                         <h2>⚓ Pilih Rute &amp; Jadwal</h2>
@@ -119,7 +116,6 @@
                             <h2 style="color: #0a2463;">Tiket Berhasil Dipesan!</h2>
                             <p>E-tiket Anda telah berhasil dibuat. Tunjukkan tiket kepada petugas saat boarding di
                                 pelabuhan.</p>
-
                             <div id="etw">
                                 <div class="etw-title">🎫 E-Tiket Mudik Gratis 2025</div>
                                 <div class="route-disp">
@@ -147,13 +143,11 @@
                                 <div class="bc-wrap" id="bc"></div>
                                 <div class="code-disp" id="tcode">BHE-2025-XXXXXX</div>
                             </div>
-
                             <button class="bpri" onclick="resetAll()">← Pesan Tiket Lain</button>
                         </div>
                     </div>
-
-                </div><!-- /bcard -->
-            </div><!-- /main -->
+                </div>
+            </div>
 
             <!-- SIDEBAR -->
             <div class="sidebar">
@@ -165,23 +159,16 @@
                 </div>
             </div>
 
-        </div><!-- /bl -->
+        </div>
 
 
         <style>
-            /* ── Tambahkan di bagian bawah tiket-mobile.css ──
-       Atau di bawah @media (max-width: 768px) yang sudah ada
-       ─────────────────────────────────────────────────── */
-
             @media (max-width: 768px) {
 
-                /* Wrapper utama */
                 #pg-tiket {
                     padding-top: 68px;
-                    /* tinggi navbar */
                 }
 
-                /* ── Header biru ── */
                 .th {
                     padding: 18px 18px 22px;
                 }
@@ -213,10 +200,7 @@
                 }
             }
         </style>
-
         <div id="toast" class="toast"></div>
-
         <script src="{{ asset('js/app.js') }}"></script>
-
     </div>
 @endsection
