@@ -110,6 +110,8 @@ function bpx() {
     document.getElementById('pxf').innerHTML = h;
 }
 
+
+
 // ── HANDLE KTP UPLOAD ──
 function hKTP(inp, id) {
     if (!inp.files || !inp.files[0]) return;
@@ -133,6 +135,8 @@ function hKTP(inp, id) {
     toast('✓ Dokumen penumpang ' + id + ' berhasil dipilih', 'ok');
 }
 
+
+
 // ── BUILD CONFIRMATION ──
 function bkfm() {
     const tg = document.getElementById('tgl').value;
@@ -155,6 +159,9 @@ function bkfm() {
     ${rows}
     <div class="tr"><span class="tl">Total Biaya</span><span><span class="ta">Rp 0</span> &nbsp;<span class="badge-g">GRATIS</span></span></div>`;
 }
+
+
+
 
 // ── PESAN ──
 function pesan() {

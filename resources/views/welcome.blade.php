@@ -66,16 +66,13 @@
 
     {{-- ===== CSS HERO BACKGROUND CAROUSEL ===== --}}
     <style>
-        /* ── Hero: full height, posisi relative untuk layer-layer di dalamnya ── */
         .hero {
             position: relative;
             padding: 110px 8% 200px;
             overflow: hidden;
-            /* hapus background biru lama — akan diganti gambar */
             background: none !important;
         }
 
-        /* ── Background slider: cover penuh area hero ── */
         .hero-bg-slider {
             position: absolute;
             inset: 0;
@@ -87,7 +84,6 @@
             inset: 0;
         }
 
-        /* Tiap slide = background-image, fade in/out */
         .hbs-slide {
             position: absolute;
             inset: 0;
@@ -101,30 +97,21 @@
             opacity: 1;
         }
 
-     
         .hbs-overlay {
             position: absolute;
             inset: 0;
             background: linear-gradient(100deg,
                     rgba(12, 36, 97, 0.97) 0%,
-                    /* --b9 */
                     rgba(26, 58, 124, 0.93) 20%,
-                    /* --b8 */
                     rgba(30, 79, 168, 0.85) 38%,
-                    /* --b7 */
                     rgba(37, 99, 235, 0.65) 55%,
-                    /* --b6 */
                     rgba(59, 130, 246, 0.30) 72%,
-                    /* --b5 */
                     rgba(96, 165, 250, 0.05) 88%,
-                    /* --b4 */
                     rgba(96, 165, 250, 0.0) 100%
-                    /* transparan */
                 );
             z-index: 1;
         }
 
-        /* ── Dim ringan seluruh area agar gambar tidak terlalu silau ── */
         .hbs-dim {
             position: absolute;
             inset: 0;
@@ -132,7 +119,6 @@
             z-index: 1;
         }
 
-        /* ── Semua konten hero di atas overlay ── */
         .hero-wrap {
             position: relative;
             z-index: 2;
@@ -144,20 +130,16 @@
             margin: auto;
         }
 
-        /* ── Dots navigasi: pojok kanan bawah area hero ── */
         .hbs-dots-wrap {
             position: absolute;
             bottom: -100px;
-            /* relatif ke hero-wrap; disesuaikan */
             right: 0;
             display: flex;
             gap: 8px;
             align-items: center;
         }
 
-        /* override posisi dots agar ada di bawah hero, pojok kanan */
         .hero {
-            /* padding bawah lebih panjang untuk ruang dots */
         }
 
         .hbs-dots-wrap {
@@ -182,14 +164,12 @@
             width: 28px;
             border-radius: 4px;
         }
-
-        /* Hapus pseudo sebelumnya yang buat wave putih — tetap pakai */
+        
         .hero::before {
             content: '';
             position: absolute;
             inset: 0;
             background: none;
-            /* override */
             z-index: 0;
         }
 
@@ -203,32 +183,25 @@
             background: var(--g0);
             clip-path: ellipse(55% 100% at 50% 100%);
             z-index: 3;
-            /* di atas gambar */
         }
 
-        /* ── Responsive dots ── */
         @media (max-width: 900px) {
             .hbs-dots-wrap {
                 bottom: -90px;
                 right: 50%;
                 transform: translateX(50%);
             }
-
             .hero-wrap {
                 flex-direction: column-reverse;
                 text-align: center;
             }
-
             .ha {
                 justify-content: center;
             }
-
             .hstats {
                 margin-left: auto;
                 margin-right: auto;
             }
-
-            /* Overlay lebih merata di mobile karena tidak ada gambar kanan */
             .hbs-overlay {
                 background: linear-gradient(180deg,
                         rgba(10, 30, 90, 0.80) 0%,
@@ -240,14 +213,12 @@
             .hero {
                 padding: 90px 8% 120px;
             }
-
             .hbs-dots-wrap {
                 display: flex;
                 bottom: 18px;
                 right: 50%;
                 transform: translateX(50%);
             }
-
             .ha {
                 gap: 8px;
                 margin-bottom: 20px;
@@ -271,11 +242,7 @@
                 slides[cur].classList.add('active');
                 dots[cur].classList.add('active');
             }
-
-            // Auto-play setiap 4 detik
             setInterval(() => goBgSlide(cur + 1), 4000);
-
-            // Expose ke HTML (onclick dots)
             window.goBgSlide = goBgSlide;
         })();
     </script>
